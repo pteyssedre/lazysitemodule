@@ -1,0 +1,37 @@
+{
+  "name": "lazysitemodule",
+  "version": "1.0.0",
+  "description": "Definition of LazyModule extension for LazySite",
+  "main": "index.js",
+  "typings": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LazyModule",
+    "LazySite",
+    "LazyBoyJS"
+  ],
+  "files": [
+    "index.ts",
+    "index.d.ts",
+    "tsconfig.json",
+    "typings.json",
+    "typings"
+  ],
+  "author": {
+    "name": "pteyssedre",
+    "email": "pierre@teyssedre.ca",
+    "url": "https://github.com/pteyssedre"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lazy-format-logger": "0.0.5",
+    "lazy-uac": "0.0.19",
+    "lazyboyjs": "0.0.13"
+  },
+  "devDependencies": {
+    "typescript": "^2.2.2",
+    "typings": "^2.1.0"
+  }
+}
