@@ -1,6 +1,6 @@
 {
   "name": "lazysitemodule",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Definition of LazyModule extension for LazySite",
   "main": "index.js",
   "typings": "index",
