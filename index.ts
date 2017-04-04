@@ -17,6 +17,7 @@ export interface LazyRoute {
     LangFromRequest(req: express.Request): string;
     ValidateIdParam(req, res): string;
     CheckUserLogged(req, res, next);
+    requestModule<T>(name: string): T;
 }
 
 export abstract class LazyModule {

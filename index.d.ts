@@ -1,4 +1,3 @@
-/// <reference types="express" />
 import { lazyboyjs } from "lazyboyjs";
 import { LazyUAC, DataModel } from "lazy-uac";
 import { LogLevel } from "lazy-format-logger";
@@ -16,6 +15,7 @@ export interface LazyRoute {
     LangFromRequest(req: express.Request): string;
     ValidateIdParam(req: any, res: any): string;
     CheckUserLogged(req: any, res: any, next: any): any;
+    requestModule<T>(name: string): T;
 }
 export declare abstract class LazyModule {
     protected options: DatabaseManagerOptions;
